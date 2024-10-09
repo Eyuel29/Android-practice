@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">list_fragment_demo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="cities">
+        <item>Addis Ababa</item>
+        <item>Berlin</item>
+        <item>Abu Dhabi</item>
+        <item>Frankfurt</item>
+        <item>Tokyo</item>
+    </string-array>
+
+    <string-array name="cityDesc">
+        <item>Addis Ababa, the capital city of Ethiopia, exudes a unique charm as a bustling metropolis nestled in the country\'s highlands.</item>
+        <item>Berlin, the vibrant capital of Germany, encapsulates a harmonious blend of history, culture, and innovation.</item>
+        <item>Abu Dhabi, the capital of the United Arab Emirates, epitomizes opulence and modernity in the heart of the Arabian Desert. </item>
+        <item>Frankfurt, a bustling metropolis in the heart of Germany, stands as a vibrant financial and cultural hub. Skyscrapers dominate its skyline.</item>
+        <item>Tokyo, the pulsating capital of Japan, is a mesmerizing blend of ultramodern innovation and deep-rooted tradition. </item>
+    </string-array>
+</resources>

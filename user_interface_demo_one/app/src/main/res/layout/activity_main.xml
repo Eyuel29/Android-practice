@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="30dp"
+        android:id="@+id/labelRegistration" />
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:id="@+id/rLayoutEmail"
+    android:layout_below="@id/labelRegistration"
+    android:paddingVertical="30dp"
+    android:paddingHorizontal="50dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/labelFname"
+        android:layout_height="wrap_content"
+        android:text="First name"
+        android:layout_marginHorizontal="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/inputFname"
+        android:layout_below="@id/labelFname"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/labelLname"
+        android:layout_below="@id/inputFname"
+        android:layout_height="wrap_content"
+        android:text="Last name"
+        android:layout_marginHorizontal="10dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:id="@+id/inputLname"
+        android:layout_below="@id/labelLname"
+        android:layout_marginBottom="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/labelEmail"
+        android:layout_below="@id/inputLname"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_marginHorizontal="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:id="@+id/inputEmail"
+        android:layout_below="@id/labelEmail"
+        android:layout_marginBottom="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/labelGender"
+        android:layout_below="@id/inputEmail"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:layout_marginHorizontal="10dp"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputRadioMale"
+        android:layout_below="@id/labelGender"
+        android:text="Male"
+        android:transitionName="Gender"
+        android:layout_marginBottom="30dp"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputRadioFemale"
+        android:layout_toRightOf="@+id/inputRadioMale"
+        android:layout_below="@id/labelGender"
+        android:text="Female"
+        android:transitionName="Gender"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:id="@+id/inputPassword1"
+        android:layout_below="@id/inputRadioFemale"
+        android:hint="Password"
+        android:paddingBottom="5dp"
+        android:layout_marginBottom="30dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:id="@+id/inputPassword2"
+        android:layout_below="@id/inputPassword1"
+        android:hint="Renter Password"
+        android:paddingBottom="5dp"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSubmit"
+        android:layout_marginHorizontal="30dp"
+        android:text="Submit"
+        android:layout_below="@id/inputPassword2"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
+
+</RelativeLayout>

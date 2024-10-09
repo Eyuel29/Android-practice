@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="280dp"
+    android:padding="10dp"
+    tools:context=".DialogFragment"
+    android:background="#FFFFF5F5"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:id="@+id/inputUsername"
+        android:hint="Enter your name"
+        android:layout_marginVertical="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:id="@+id/inputPassword"
+        android:hint="Enter your password"
+        android:layout_marginVertical="20dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center_vertical">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:id="@+id/buttonOk"
+            android:backgroundTint="#FF117777"
+            android:text="login"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true" />
+
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:backgroundTint="#FF117777"
+            android:text="cancel" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

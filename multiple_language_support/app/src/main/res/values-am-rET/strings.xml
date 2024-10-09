@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Multi language app</string>
+    <string name="toastMessage">መተግበሪያችንን ስለተጠቀሙ እናመሰኛለን።</string>
+    <string name="buttonShowMsg">መልዕክት አሳይ</string>
+    <string name="welcomeMessage">እንኳን ደና መጡ።</string>
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">recyclerview_demo</string>
+    <string-array name="contactNames">
+        <item>Eyuel Dejene</item>
+        <item>Dejene Lemma</item>
+        <item>Ruhama Dejene</item>
+        <item>Yegle Dugda</item>
+        <item>Selamawit Dejene</item>
+    </string-array>
+
+    <string-array name="contactNumbers">
+        <item>0968658459</item>
+        <item>0913798941</item>
+        <item>0978652393</item>
+        <item>0913798941</item>
+        <item>0941974702</item>
+    </string-array>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearlayoutForm"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="40dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputUserName"
+            android:paddingVertical="15dp"
+            android:paddingHorizontal="5dp"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginVertical="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputPassword"
+            android:paddingVertical="15dp"
+            android:paddingHorizontal="5dp"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginVertical="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginVertical="10dp"
+            android:gravity="center">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonSubmit"
+                android:paddingVertical="10dp"
+                android:layout_marginHorizontal="20dp"
+                android:text="submit"
+                android:paddingHorizontal="30dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonCancel"
+                android:paddingVertical="10dp"
+                android:layout_marginHorizontal="20dp"
+                android:text="cancel"
+                android:paddingHorizontal="30dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewUserInfo"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:text="User Info"
+        android:gravity="center"
+        android:textSize="20sp" />
+
+</RelativeLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/container"
+        android:gravity="center_horizontal"
+        android:layout_marginVertical="30dp"
+        android:orientation="vertical">
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="25sp"-->
+<!--            android:text="Welcome"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_margin="30dp"/>-->
+
+<!--        <EditText-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/inputUserName"-->
+<!--            android:inputType="textEmailAddress"-->
+<!--            android:layout_marginVertical="10dp"-->
+<!--            android:layout_marginHorizontal="30dp"-->
+<!--            android:paddingVertical="15dp"-->
+<!--            android:paddingHorizontal="5dp"-->
+<!--            android:hint="Enter your email"-->
+<!--            android:background="#FFEEEE"-->
+<!--            />-->
+<!--        <EditText-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/inputUserPassword"-->
+<!--            android:inputType="textPassword"-->
+<!--            android:layout_marginVertical="10dp"-->
+<!--            android:layout_marginHorizontal="30dp"-->
+<!--            android:paddingVertical="15dp"-->
+<!--            android:paddingHorizontal="5dp"-->
+<!--            android:hint="Enter your password"-->
+<!--            android:background="#FFEEEE"/>-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_marginVertical="50dp">-->
+<!--            <Button-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:id="@+id/submitButton"-->
+<!--                android:paddingVertical="10dp"-->
+<!--                android:paddingHorizontal="40dp"-->
+<!--                android:layout_marginHorizontal="10dp"-->
+<!--                android:background="#FF8800"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:onClick="submitButtonOnClick"-->
+<!--                android:text="submit"-->
+<!--                />-->
+<!--            <Button-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:id="@+id/cancelButton"-->
+<!--                android:paddingVertical="10dp"-->
+<!--                android:paddingHorizontal="40dp"-->
+<!--                android:layout_marginHorizontal="10dp"-->
+<!--                android:background="#FF8800"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:onClick="cancelButtonOnClick"-->
+<!--                android:text="cancel"-->
+<!--                />-->
+<!--        </LinearLayout>-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/counterView"
+            android:padding="10dp"
+            android:background="#888888"
+            android:textColor="@color/white"
+            android:layout_margin="30dp"
+            android:textStyle="bold"
+            android:text="0"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonIncrement"
+            android:layout_margin="30dp"
+            android:text="Inc +"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/openActivity"
+            android:layout_margin="30dp"
+            android:text="Open second activity"/>
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
